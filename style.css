@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  width: 800px;
+}
+.box1,
+.box3 {
+  background-color: blue;
+  height: 130px;
+}
+.box2 {
+  background-color: red;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  display: block;
+  width: 350px;
+  object-fit: contain;
+}
